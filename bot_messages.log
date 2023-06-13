@@ -1,0 +1,18 @@
+2023-06-10 02:55:01,399 - INFO - logging in using static token
+2023-06-10 02:55:01,976 - INFO - Shard ID None has connected to Gateway (Session ID: 79b96e9034e26b029ea92724c516ac90).
+2023-06-10 02:55:10,266 - ERROR - Ignoring exception in on_command
+Traceback (most recent call last):
+  File "/home/runner/IcyCapitalWireframe/venv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 17, in on_command
+    log_channel = bot.get_channel(log_channel_id)
+NameError: name 'log_channel_id' is not defined
+2023-06-10 02:55:10,436 - INFO - Messaggio inviato dal bot: Saldo di TheBigBoss611: 0 ZCoin
+2023-06-10 02:56:19,983 - INFO - logging in using static token
+2023-06-10 02:56:20,530 - INFO - Shard ID None has connected to Gateway (Session ID: 75f3187fb2c5cb49876819243deb801a).
+2023-06-10 02:56:25,189 - INFO - Messaggio inviato dal bot: Saldo di TheBigBoss611: 0 ZCoin
+2023-06-10 02:56:25,327 - INFO - Messaggio inviato dal bot: Il comando "saldo" è stato utilizzato da TheBigBoss611.
+2023-06-10 02:59:54,158 - INFO - logging in using static token
+2023-06-10 02:59:54,695 - INFO - Shard ID None has connected to Gateway (Session ID: 188f2b7333808bb90bab690fe08c7499).
+2023-06-10 02:59:59,558 - INFO - Messaggio inviato dal bot: Saldo di TheBigBoss611: 0 ZCoin
+2023-06-10 02:59:59,783 - INFO - Messaggio inviato dal bot: Il comando "saldo" è stato utilizzato da TheBigBoss611.

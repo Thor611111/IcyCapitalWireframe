@@ -1,0 +1,45 @@
+2023-06-10 01:58:14,762 - INFO - logging in using static token
+2023-06-10 01:58:15,300 - INFO - Shard ID None has connected to Gateway (Session ID: 7529db2cc165adc55a12bb4e1f5764f8).
+2023-06-10 02:03:14,394 - INFO - logging in using static token
+2023-06-10 02:03:15,033 - INFO - Shard ID None has connected to Gateway (Session ID: cfe83b2a5b2dac8ecef7a3a326369d7f).
+2023-06-10 02:03:22,757 - ERROR - Ignoring exception in on_command
+Traceback (most recent call last):
+  File "/home/runner/IcyCapitalWireframe/venv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 32, in on_command
+    await log_channel.send(f'Il comando "{command_name}" è stato utilizzato da {author_name}.')
+AttributeError: 'NoneType' object has no attribute 'send'
+2023-06-10 02:05:53,362 - INFO - logging in using static token
+2023-06-10 02:05:53,912 - INFO - Shard ID None has connected to Gateway (Session ID: 18fdfe3982bcf22f75f55e9a99f7946f).
+2023-06-10 02:06:16,539 - ERROR - Ignoring exception in on_command
+Traceback (most recent call last):
+  File "/home/runner/IcyCapitalWireframe/venv/lib/python3.10/site-packages/discord/client.py", line 441, in _run_event
+    await coro(*args, **kwargs)
+  File "main.py", line 32, in on_command
+    await log_channel.send(f'Il comando "{command_name}" è stato utilizzato da {author_name}.')
+AttributeError: 'NoneType' object has no attribute 'send'
+2023-06-10 02:07:12,798 - INFO - logging in using static token
+2023-06-10 02:07:13,405 - INFO - Shard ID None has connected to Gateway (Session ID: c4d2b00518a88762223fd95ce3afea9a).
+2023-06-10 02:07:18,349 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "asldo" is not found
+2023-06-10 02:14:25,387 - INFO - logging in using static token
+2023-06-10 02:14:25,980 - INFO - Shard ID None has connected to Gateway (Session ID: e27681c32a9a3bf5c2a8e7a2e10b24f3).
+2023-06-10 02:15:25,314 - INFO - logging in using static token
+2023-06-10 02:15:25,846 - INFO - Shard ID None has connected to Gateway (Session ID: b140e4a399573e67647ee37039c98a04).
+2023-06-10 02:17:29,461 - WARNING - Can't keep up, shard ID None websocket is 41.3s behind.
+2023-06-10 02:37:10,513 - INFO - logging in using static token
+2023-06-10 02:37:11,066 - INFO - Shard ID None has connected to Gateway (Session ID: fe47480f91799df9b167901ccff84518).
+2023-06-10 02:38:39,297 - INFO - logging in using static token
+2023-06-10 02:38:39,992 - INFO - Shard ID None has connected to Gateway (Session ID: 39546ba3b7f75152e5e5f1a1b767a6b0).
+2023-06-10 02:42:23,162 - INFO - logging in using static token
+2023-06-10 02:42:23,660 - INFO - Shard ID None has connected to Gateway (Session ID: 7f2e66b077317977add185dbf8cffae6).
+2023-06-10 02:43:12,231 - INFO - logging in using static token
+2023-06-10 02:43:12,688 - INFO - Shard ID None has connected to Gateway (Session ID: 1e07edebebc185345212519e0a04a4f8).
+2023-06-10 02:43:53,410 - INFO - logging in using static token
+2023-06-10 02:43:53,930 - INFO - Shard ID None has connected to Gateway (Session ID: e8b2932eedf7a36577d9941814544100).
+2023-06-10 02:44:44,981 - INFO - logging in using static token
+2023-06-10 02:44:45,538 - INFO - Shard ID None has connected to Gateway (Session ID: a37f805072d2bd0478035488f5084e1c).
+2023-06-10 02:47:12,265 - INFO - logging in using static token
+2023-06-10 02:47:12,830 - INFO - Shard ID None has connected to Gateway (Session ID: 661ccd3243dc667d6aa2ebe49713b34b).
+2023-06-10 02:48:27,926 - INFO - logging in using static token
+2023-06-10 02:48:28,421 - INFO - Shard ID None has connected to Gateway (Session ID: f8023c633fcb941c8080af66fa69bc90).
